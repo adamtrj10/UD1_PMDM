@@ -26,7 +26,10 @@ La resposta es que no, ja que també tindriem que crear un fitxer XML (interfíc
 
 ## 3. Solució a la pèrdua d'estat
 **Per què ix error quan fem debug?**
-*Log.D* requereix de 2 arguments, per això ix error
+*Log.D* requereix de 2 arguments: El **primer**, com a *"tag"*, i el **segon**, com a *"missatge"*. \
+Per tal de solucionar-ho, afegir el primer argument que falta, i ho aplicarem a tots el métodes: \
+![Alt text](https://i.ibb.co/9YGvhTQ/Captura-de-pantalla-2024-10-07-110640.png "img")
+
 
 ## 4. Ampliant la funcionalitat amb decrements i resets
 
